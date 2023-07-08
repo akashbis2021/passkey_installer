@@ -8,5 +8,6 @@ sudo chmod +x /var/log/.passkey.sh
 clear
 setalias='alias passkey="/var/log/.passkey.sh"'
 echo $setalias >> /home/$username/.bashrc
+sudo rm -r /home/$username/Downloads/Passkey_PasswordManager
 echo "Installing done"
 
